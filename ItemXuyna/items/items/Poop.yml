@@ -1,0 +1,14 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rГовно
+    custom-model-data: 8
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMLAE5OcXMAAArDCP2yMAAAA=
+created: 1603379778188
+hide: true
+
+texture-author: 'DartCat25'

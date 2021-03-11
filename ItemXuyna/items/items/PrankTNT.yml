@@ -1,0 +1,10 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2584
+  type: TNT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMHAEFCXmZYf4hTAAABgptzUnAAAA
+created: 1607096697419
+hide: true

@@ -1,0 +1,80 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: DIAMOND_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rОбсидиановые поножи
+    lore:
+    - '§rПрочность: 660 / 660'
+    custom-model-data: 1
+    attribute-modifiers:
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -0.06
+        name: generic.movement.speed
+        slot: LEGS
+        uuid: b5c5f619-4d48-4e3c-bead-37d9b795cdea
+        operation: 1
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.armor.toughness
+        slot: LEGS
+        uuid: f94550a8-9c30-47ac-a931-a2e3f8bfc938
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 6.0
+        name: generic.armor
+        slot: LEGS
+        uuid: 4289c132-772b-494e-9397-f37fd204e85e
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.01
+        name: generic.knockback.resistance
+        slot: LEGS
+        uuid: a2eeb560-52ed-45a4-8c56-45109f2ec65b
+        operation: 0
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eViEHAuLS7Jz3UpLUpMyszJLKlkZuD1TaxA8BkYmKYwM3AhCzCAjGIBGcUg4J9UnJmSmZjnk5qenpmXXswAAEWLACNoAAAA
+created: 1603649018084
+lore:
+- '§r§6Максимальная Прочность: 660'
+- §r§6§o(См. §r§oОбсидиановый нагрудник§r§6§o)
+clear-tag: false
+type: ITEM
+hide: false
+
+texture-author: 'NezuShin'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN

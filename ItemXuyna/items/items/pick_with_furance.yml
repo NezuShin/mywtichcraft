@@ -1,0 +1,52 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 1976
+  type: IRON_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fЖелезная кирка с печкой
+    custom-model-data: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwphECzITM6OL88syYhPKy1KzEtOZQAANOCA1B4AAAA=
+crafts:
+  '0':
+    type: shaped
+    matrix:
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: IRON_INGOT
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: IRON_PICKAXE
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: BLAST_FURNACE
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: IRON_INGOT
+      - null
+      
+texture-author: 'Mr_Mr_Andrey0301'      
+realisation-author: 'sidey383'
+
+lore:
+- '§6Это просто кирка, к которой мы'
+- '§6прицепили печку, но как это удобно!'
+- '§6Кирка сама плавит железо и золото.'
+- '§6Оно мгновенно попадает к вам в'
+- '§6инветарь. Опыт при этом пропадает.'
+- '§6Таже расходует уголь для переплавки.'
+- '§6Одного угля хватает на 5 предметов.'
+- '§6Для того, чтобы положить уголь в кирку'
+- '§6возьмите кирку во вторую, а уголь в'
+- '§6основную руки и нажмите пкм.'
+- '§6Весь уголь загрузится в кирку.'
+- '§6После этого его никак нельзя достать.'
+- '§6Следите, чтобы не положить слишком много!'
+- '§6Если кирка сломается уголь пропадет вместе'
+- '§6с ней.'
+- '§6В остальном обычная железная кирка'

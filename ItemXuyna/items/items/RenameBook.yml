@@ -1,0 +1,56 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WRITABLE_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: BOOK
+    display-name: §r§aКнига цыганских фокусов
+    custom-model-data: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4ApKzUvMTXXKz89mAAAW3WEWFwAAAA==
+created: 1589760918273
+lore: 
+- '§r§6Переименовывает вещи.'
+- '§r§6Для применения нажмите пкм с книгой во второй руке.'
+- '§r§6В Заглавии книги надо написать название предмета'
+- '§r§6На страницах надо ввести описание предмета'
+
+texture-author: 'SixFootBlue (ItemBound texture pack)'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: WRITABLE_BOOK
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: ENDER_EYE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: ANVIL
+    - null
+  '1':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: ANVIL
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: ENDER_EYE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: WRITABLE_BOOK
+    - null

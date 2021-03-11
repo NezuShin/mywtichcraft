@@ -1,0 +1,96 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: DIAMOND_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rОбсидиановые ботинки
+    lore:
+    - '§rПрочность: 600 / 600'
+    custom-model-data: 1
+    attribute-modifiers:
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -0.06
+        name: generic.movement.speed
+        slot: FEET
+        uuid: 1717fbb0-edd2-4536-bd8b-8a6c3714ab5a
+        operation: 1
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 3.0
+        name: generic.armor
+        slot: FEET
+        uuid: 62c14d8e-26fc-4b3c-a4b9-15c6bdcd3eb7
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.armor.toughness
+        slot: FEET
+        uuid: b5329477-e5ee-450c-8f0d-c47b5ecdc671
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.01
+        name: generic.knockback.resistance
+        slot: FEET
+        uuid: 6850225f-3d2a-4a80-ab52-c2b5097e852f
+        operation: 0
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eViEHAuLS7Jz3UpLUpMyszJLKlkZuD1TaxA8BkYmCKYGbiQBRhARrGAjGLg9U8qzkzJTMxzys8vKWYAAKxZCnVlAAAA
+created: 1603649009052
+lore:
+- '§r§6Максимальная Прочность: 600'
+- §r§6§o(См. §r§oОбсидиановый нагрудник§r§6§o)
+clear-tag: false
+type: ITEM
+hide: false
+
+texture-author: 'NezuShin'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+  '1':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: OBSIDIAN
+    - null
+    - null
+    - null

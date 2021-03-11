@@ -1,0 +1,59 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: FILLED_MAP
+  meta:
+    ==: ItemMeta
+    meta-type: MAP
+    display-name: §rХолст
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4A5IzMwrcU7MK0ssZgAASRSEzRgAAAA=
+    map-id: 536
+    display-map-color:
+      ==: Color
+      RED: 255
+      BLUE: 0
+      GREEN: 0
+created: 1597693980814
+lore: 
+- '§r§6Используется для рисования. §o(Смотри Кисть)'
+- '§r§6Можно дублировать, складывая его в верстаке'
+- '§r§6с пустой картой.'
+- '§r§6Размер изображения на карте - 128 на 128 пикселей.'
+- '§r§6Через команду /artmap можно'
+- '§r§6передать владение(никто, кроме владельца'
+- '§r§6 рисовать не может),'
+- '§r§6или загрузить изображение по url'
+- '§r§6§o(Загрузка изображения доступна только'
+- '§r§6донатерам)'
+clear-tag: false
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: STICK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: LEATHER
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: STICK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: LEATHER
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MAP
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: LEATHER
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: STICK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: LEATHER
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: STICK
