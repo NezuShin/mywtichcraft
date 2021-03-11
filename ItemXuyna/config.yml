@@ -1,0 +1,13 @@
+sql:
+  mysql:
+    use: false
+    port: 3306
+    url: 127.0.1
+    password: anal
+    dbname: anal
+    user: anal
+message:
+  insuffisiantPermissions: '&cНет прав!'
+  repaired: '&6Вы успешно починили предмет.'
+durability:
+  loreMessage: '&rПрочность: {durability} / {max-durability}'

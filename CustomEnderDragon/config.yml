@@ -1,0 +1,13 @@
+messages:
+  chasing-bullets: '&r&2&lЭндер дракон&r &a>>&r Самонаводящиеся снаряды!'
+  lightning: '&r&2&lЭндер дракон&r &a>>&r Молния!'
+  flying-crystals: '&r&2&lЭндер дракон&r &a>>&r Летающие кристаллы!'
+  
+bossbar:
+  color: GREEN
+  style: SEGMENTED_20
+  name: '&r&2&lЭндер дракон&r'
+  
+block-gateway: true
+
+block-glide: true

@@ -1,0 +1,45 @@
+commands:
+  '1':
+    cmd: ec
+    executor: ec.js
+  '2':
+    cmd: menu
+    executor: menu_open.js
+  '3':
+    cmd: rtp
+    executor: rrtp.js
+  '6':
+    cmd: shop
+    executor: shop_cmd.js
+  '7':
+    cmd: donate
+    executor: donate_cmd.js
+  '8':
+    cmd: rules
+    executor: rules_cmd.js
+  '9':
+    cmd: togglegravity
+    executor: gravity_gun_cmd.js
+  '10':
+    cmd: crafts
+    executor: crafts_cmd.js
+  '19':
+    cmd: 'discord'
+    executor: discord_cmd.js
+  '20':
+    cmd: 'ds'
+    executor: discord_cmd.js
+  '21':
+    cmd: 'tt'
+    executor: ticktock_cmd.js
+  '22':
+    cmd: 'vk'
+    executor: vk_cmd.js
+  '23':
+    cmd: enderchest
+    executor: ec.js
+  '24':
+    cmd: help
+    executor: help_cmd.js
+    
+    
