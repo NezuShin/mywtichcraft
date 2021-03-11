@@ -1,0 +1,86 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §r§5§lЭндер меч
+    custom-model-data: 6
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HYpSkzPzwsuzy9KYQAAcTHx1xgAAAA=
+created: 1592267425025
+lore: 
+- '§r§6При убийстве моба, вещи сразу появляются в инвентаре.'
+- '§r§6На ПКМ стреляет огненными шарами дракона'
+- '§r§6Для стрельбы требуется пожаренный плод хоруса.'
+- '§r§6Если на игрока надет шлем дракона,'
+- '§r§6то на Shift-ПКМ доступно дыхание дракона'
+clear-tag: false
+
+texture-author: 'NezuShin'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§bЗвезда энда
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HTNS0ktCi5JLGIAALzaAZ8WAAAA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: ENDER_EYE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§bЗвезда энда
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HTNS0ktCi5JLGIAALzaAZ8WAAAA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§4Огненный меч
+        lore:
+        - §rОчень грозное и опасное оружие
+        custom-model-data: 2
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HTLLEoNLs8vSmEAAO0T0tcWAAAA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§bЗвезда энда
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HTNS0ktCi5JLGIAALzaAZ8WAAAA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: WOODEN_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§5§lЭндер посох
+        custom-model-data: 6
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HLNS0ktCi4pTUtjAABFxCeQFwAAAA==
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§bЗвезда энда
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HTNS0ktCi5JLGIAALzaAZ8WAAAA
+    - null

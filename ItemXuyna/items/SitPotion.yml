@@ -1,0 +1,41 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS_BOTTLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rБутылка
+    lore:
+    - §r§7(Нажми пкм)
+    custom-model-data: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4AzOLAnIL8nMz2MAAEDgA9UWAAAA
+created: 1590965507660
+lore: []
+
+texture-author: 'Ciklop Workshop'
+
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GLASS
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GLASS
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GLASS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GLASS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GLASS

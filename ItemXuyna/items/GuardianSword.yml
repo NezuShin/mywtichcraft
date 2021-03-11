@@ -1,0 +1,104 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Меч
+      стража"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Прочность:
+      2000 / 2000"}],"text":""}'
+    custom-model-data: 7
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eViEHAuLS7Jz3UpLUpMyszJLKlkZuD1TaxA8BkY2C8wM3AhCzCAjGIBGcXA616aWJSSmZgXXJ5flMIAADx2wmtlAAAA
+lore:
+- '§r§6Прочность: 2000'
+- §r§6Стреляет лучём стража.
+- §r§6Выстрел занимает 0.7 секунд.
+created: 1612134602026
+clear-tag: false
+type: ITEM
+hide: false
+texture-author: '12123459'
+realisation-author: NezuShin
+block-type: StandSpawner
+prevent-anvil-enchant: false
+prevent-netherite-upgrade: false
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: HEART_OF_THE_SEA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Морской
+          стержень"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMHC7lyYWpWQm5gXlpzAAAB16U3QqAAAA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Морской
+          стержень"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMHC7lyYWpWQm5gXlpzAAAB16U3QqAAAA
+  '1':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: HEART_OF_THE_SEA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Морской
+          стержень"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMHC7lyYWpWQm5gXlpzAAAB16U3QqAAAA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Морской
+          стержень"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMHC7lyYWpWQm5gXlpzAAAB16U3QqAAAA
+    - null
+    - null
+    - null

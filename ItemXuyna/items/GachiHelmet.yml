@@ -1,0 +1,60 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2584
+  type: DIAMOND_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: Кляп
+    lore:
+    - 'Прочность: 10 / 10'
+    custom-model-data: 3
+    attribute-modifiers:
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -18.0
+        name: generic.max.health
+        slot: HEAD
+        uuid: 7603ea85-a7ad-4ac3-9e08-e66290f83593
+        operation: 0
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eViEHAuLS7Jz3UpLUpMyszJLKlkZuD1TaxA8BkYGLiYGbhQBEBGsYCMYuB2T0zOyPRIzclNLWEAAMxYuidjAAAA
+created: 1605382201627
+lore: []
+clear-tag: false
+type: ITEM
+hide: true
+texture-author: 'DartCat25'
+realisation-author: NezuShin
+
+prevent-anvil-enchant: true
+prevent-netherite-upgrade: true
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: STRING
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: STRING
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: STRING
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: STRING
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: STRING
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: IRON_NUGGET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: RED_WOOL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: IRON_NUGGET

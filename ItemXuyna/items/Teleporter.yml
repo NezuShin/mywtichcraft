@@ -1,0 +1,58 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STONE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rТелепортер
+    custom-model-data: 6
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVgdfLxd/bmYGABCTFwhaTmpBbkF5WkFjEAAKUlQRoqAAAA
+created: 1603052014758
+lore:
+- §r§6Испольуется для того,
+- §r§6чтобы поставить точку варпа.
+- §r§6Нажмите ПКМ по блоку, чтобы
+- §r§6изменить название варпа.
+- §r§6Игроки могут телепортироваться
+- §r§6по команде /warp
+- §r§6
+- §r§6Айтем доступен для привилегии
+- §r§c§lДьявол§r §r§6и выше.
+clear-tag: false
+type: ITEM
+
+
+texture-author: 'DartCat25'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: ENDER_EYE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT

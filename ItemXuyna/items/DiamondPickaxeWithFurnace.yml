@@ -1,0 +1,42 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: DIAMOND_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rАлмазная кирка с печкой
+    lore:
+    - §7Горючего хватит на 0 блоков
+    custom-model-data: 3
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwphkHTJTMzNz0sJyEzOTqxIDc8syXArLcpLTE5lAABECuhnJgAAAA==
+    PublicBukkitValues:
+      itemxuyna:usage: 0i
+created: 1595906941095
+lore: 
+- '§r§6Действует аналогично железной.'
+clear-tag: false
+
+texture-author: 'NezuShin'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_PICKAXE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAST_FURNACE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - null

@@ -1,0 +1,66 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: DIAMOND_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §r§5§lЭндер кирка
+    custom-model-data: 4
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HHNS0ktCshMzk6sSGUAAO41OtIZAAAA
+created: 1591801436591
+lore: 
+- '§r§6На ПКМ выстреливает облаком эффекта, как это делает дракон.'
+- '§r§6На Shift + ПКМ телепортирует игрока по направлению его взгляда'
+- '§r§6При добыче блока, дроп с него сразу попадает в инвентарь'
+clear-tag: false
+
+texture-author: 'NezuShin'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PRISMARINE_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §rСкорлупа яйца дракона
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HMpSkzPz3NNTw/OSM3JYQAAd60/wRsAAAA=
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PRISMARINE_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §rСкорлупа яйца дракона
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HMpSkzPz3NNTw/OSM3JYQAAd60/wRsAAAA=
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: WOODEN_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§5§lЭндер посох
+        custom-model-data: 6
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HLNS0ktCi4pTUtjAABFxCeQFwAAAA==
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PRISMARINE_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §rСкорлупа яйца дракона
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HMpSkzPz3NNTw/OSM3JYQAAd60/wRsAAAA=
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - null
+    - null

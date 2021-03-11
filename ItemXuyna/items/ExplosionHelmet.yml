@@ -1,0 +1,36 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 1976
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §r§9Шлем подрывника
+    lore:
+    - §rИсскуство - это взрыв
+    Damage: 3
+    internal: H4sIAAAAAAAAAEVUya6jVhClo0R5/RQpP5Gd9eTLaLzoBWbGcDFgwNxNxGhGgwEzfVM+Mk5vsq1TR3UGqT4x7AP7lYenK/anuHR1OxTtQ0nrJh0/sT+c6lXXl77Nijr9wH5RE+yvhCLD7EjGXzFJgi8qJJOvKIzYrzQ9UARJhQDHw0/s803q0n4s0uE79jGmy/jq0+ETw7BvH9h3p7g/wv8mv/zj8FpuPk64lVzAXdHJOjp4gDaKIOPucJkO+ycDUSIWgdqJ3c6BRL20hHhfjwcIKQZaxZ4qZ5OSyzTMnqxjUb1F8fqrjw1fLXXQ1C+h5GJO13B8qsmYqcwoXNoua911NV3Lxlci8e9GF0YFqohzex62pX/kEzdTnY6D3Ao3NrezqMzj7sDaaCPP3N7lYS88yTGeneuzAmMlmJVNmWAbaRPZ0/lyvFdbJJQHXONyhdqVbMW5hxmcTHZtM0rIJXrKB/o4+7syFDhgnkiFHcVI7omjmig1uNw6kO16KvV3gVioQtHmXOQ+tZViSfoRTYPGaOBuxKc9aU3SQS6eO/VIIzNbCN7UklMsj6lp81Q/V4dkS0meCuIx8563LKDzq07rVTQRHa/c9trdaS9PU+8BUAX18pycF2I6VfEAs+UMUsOhENACZ2B5osTS9hmnd4t2kKfckRjlvmnjsc8tFN6Ezg25ku9ZLb4dDxpz2gV55sOpacSVQKe+b/lWDXf5wuqqlLwLM736LKSnmQGZr5UXGM1hPEuwsjwymq73+9FaayrJnYdcMPoDsNx+zLmmqz0ztBQtyUI6MVomnULeaQs5T0LCLXX0fCo7TUiJsy8YL8O5n6pSGXc86tguyE+11bGaY+kBMPdt6d8C5cBZdVI66rBIc/bsTbYYupsgZ/FbgCjqNQ/M0Ry8RyMaPz6w37ywfqXfbumqgdDH65i08+jGFWYp4qagAlhWCxSC1SiNQX2c1ohAXSR7GuJVRm0sYBBSY15hGWzGZgh2bhB2EfgqhXyXhIK6QVmcjauUq8VcxIo2oaYekEvnke8WZqFBR0SZJ9LuT5yoH1EjgeSm1W7jLYlfr8i3CvNhr4nvvu/bdarYeNx4m1p2B7WGuuNSb3wo3pxBLdsiVGwQC+2kk//v6g3eRY1Xxo3UJDz9QjdrSmSPShRvRc7xrV8FhpA36JpXhixuyA9weDUWQwhwdK0beA2It78l8EUC+W9Pm0VBgdsMXwSwccE7HwK+80Ky1MDSbuDG4eoDP2bWjx8/nxEMmxT73VCkv6/wimH/AkeDJkSiBAAA
+    skull-owner: MHF_TNT
+lore:
+- §6Этот шлем взорвётся, когда вы умрёте
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: REDSTONE_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COMPARATOR
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: TNT
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: LEATHER_HELMET
+    - null

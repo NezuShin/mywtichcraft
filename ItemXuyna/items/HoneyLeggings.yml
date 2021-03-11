@@ -1,0 +1,67 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: DIAMOND_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rМедовые поножи
+    custom-model-data: 3
+    attribute-modifiers:
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 10.0
+        name: generic.max.health
+        slot: LEGS
+        uuid: f99dbb14-6712-4e0f-8b74-90586450b113
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 6.0
+        name: generic.armor
+        slot: LEGS
+        uuid: 7f75be34-df13-4d13-bf1e-910a01441b51
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.armor.toughness
+        slot: LEGS
+        uuid: 709e0e6b-e6db-4da2-8e55-02dba41479a8
+        operation: 0
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4PXIz0ut9ElNT8/MSy9mAAD8hmCIGgAAAA==
+created: 1595370946905
+lore: 
+- '§r§6Поглощают 50% урона от стрел и огня.'
+- '§r§6Добавляют 5 сердец жизни.'
+clear-tag: false
+
+texture-author: 'LillianMay & Mr_Mr_Andrey0301'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR

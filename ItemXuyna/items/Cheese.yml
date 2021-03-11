@@ -1,0 +1,25 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rСыр
+    custom-model-data: 3
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMLA5Z6SmFqcyAABITe4PJQAAAA==
+created: 1601724624829
+lore: []
+clear-tag: false
+type: ITEM
+
+texture-author: 'execut4_ble'
+
+crafts:
+  '0':
+    type: furnace
+    toBurn:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MILK_BUCKET
+    coockTime: 200

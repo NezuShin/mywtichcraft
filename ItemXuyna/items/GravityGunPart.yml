@@ -1,0 +1,35 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: BLAZE_ROD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rСтвол Гравипушки
+    custom-model-data: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HMvSizLLKl0L80LSCwqYQAAyAeAbBsAAAA=
+lore:
+- '§6Игредиент для других крафтов'
+- '§6Сам по себе не используется'
+
+texture-author: 'Mr_Mr_Andrey0301'
+
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR
+    - null
+    - null
+created: 0

@@ -1,0 +1,51 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2584
+  type: CARROT_ON_A_STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: Лосоевая пушка
+    custom-model-data: 2
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMHAGJ+bk5ue5l+YxAACMErsbKAAAAA==
+lore: 
+- '§r§6Стреляет лососем, наносящим 10 урона'
+- '§r§6при попадании'
+created: 1609761101309
+clear-tag: false
+type: ITEM
+hide: false
+texture-author: 'Mr_Mr_Andrey0301'
+realisation-author: NezuShin
+block-type: StandSpawner
+prevent-anvil-enchant: false
+prevent-netherite-upgrade: false
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: SALMON
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: NETHERITE_INGOT
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: NETHERITE_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: TNT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: IRON_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: LEVER
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: IRON_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2584
+      type: NETHERITE_INGOT

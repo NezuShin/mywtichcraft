@@ -1,0 +1,48 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: DIAMOND_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rМедовые ботинки
+    custom-model-data: 3
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4PLIz0utdMrPLylmAABEbVHrFwAAAA==
+created: 1594301564225
+lore: 
+- '§r§6При падении и контакте с блоком,'
+- '§r§6вы будете падать медленнее.'
+
+
+texture-author: 'LillianMay & Mr_Mr_Andrey0301'
+
+clear-tag: false
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEYCOMB_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GOLDEN_APPLE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEYCOMB_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK

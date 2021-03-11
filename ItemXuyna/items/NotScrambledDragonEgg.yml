@@ -1,0 +1,20 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rДраконья яичница
+    lore:
+    - §r§7Стоит её приготовить
+    custom-model-data: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwphEPXLLwlOLkrMTcpJTXEpSkzPz3NNT2cAAAKf51ciAAAA
+created: 1591737009441
+
+texture-author: 'Mr_Mr_Andrey0301'
+
+lore:
+ - '§r§6Этот айтем нельзя скрафтить,'
+ - '§r§6но можно получить из яйца дракона,'
+ - '§r§6скинув на него наковальню.'

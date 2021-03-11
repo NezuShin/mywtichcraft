@@ -1,0 +1,82 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: IRON_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rБотинки дракона
+    custom-model-data: 2
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HYpSkzPz3PKzy8pZgAAKMTlThgAAAA=
+created: 1591736794554
+lore: 
+- '§r§6Когда вы находитесь в воздухе,'
+- '§r§6вы можете нажать shift и совершить второй прыжок.'
+- '§r§6Также ботинки дают эффект прыгучести.'
+- '§r§6При падении наносится только 30% урона.'
+
+clear-tag: false
+
+texture-author: 'NezuShin'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PRISMARINE_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §rСкорлупа яйца дракона
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HMpSkzPz3NNTw/OSM3JYQAAd60/wRsAAAA=
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PRISMARINE_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §rСкорлупа яйца дракона
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HMpSkzPz3NNTw/OSM3JYQAAd60/wRsAAAA=
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PRISMARINE_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §rСкорлупа яйца дракона
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HMpSkzPz3NNTw/OSM3JYQAAd60/wRsAAAA=
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: TNT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PRISMARINE_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §rСкорлупа яйца дракона
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HMpSkzPz3NNTw/OSM3JYQAAd60/wRsAAAA=
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: FIREWORK_ROCKET
+      meta:
+        ==: ItemMeta
+        meta-type: FIREWORK
+        power: 1
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: FIREWORK_ROCKET
+      meta:
+        ==: ItemMeta
+        meta-type: FIREWORK
+        power: 1

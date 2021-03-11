@@ -1,0 +1,65 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 1976
+  type: BOW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §r§5Лук гаста
+    custom-model-data: 1
+    enchants:
+      FIRE_ASPECT: 2
+      ARROW_INFINITE: 1
+      KNOCKBACK: 2
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HDPSCwuccovZwAAcsG95BUAAAA=
+lore: 
+- '§r§6Стреляет огненными шарами'
+- '§r§6Для стрельбы надо одну стрелу(она тратится не будет)'
+
+texture-author: 'NezuShin'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: NETHER_STAR
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GUNPOWDER
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STRING
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§5Тетива лука гаста
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HHPSCwuccovD0gsKmEAAJJtEDgZAAAA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GUNPOWDER
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STRING
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§5Тетива лука гаста
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HHPSCwuccovD0gsKmEAAJJtEDgZAAAA
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STRING
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§5Тетива лука гаста
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HHPSCwuccovD0gsKmEAAJJtEDgZAAAA
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: FIRE_CHARGE
