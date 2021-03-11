@@ -1,0 +1,33 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rПриготовленная драконья яичница
+    custom-model-data: 2
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwphEApOLkrMTcpJTXEpSkzPz3NNT2cAAHKUftwfAAAA
+created: 1591737034326
+lore:
+- '§r§6При съедении даёт прилив здровья III на 3 минуты '
+- '§r§6и регенерацию I на 30 секунд'
+clear-tag: false
+texture-author: 'Mr_Mr_Andrey0301'
+
+crafts:
+  '0':
+    type: furnace
+    toBurn:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: APPLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §rДраконья яичница
+        lore:
+        - §r§7Стоит её приготовить
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwphEPXLLwlOLkrMTcpJTXEpSkzPz3NNT2cAAAKf51ciAAAA
+    coockTime: 200

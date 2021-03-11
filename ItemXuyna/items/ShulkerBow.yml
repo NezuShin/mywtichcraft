@@ -1,0 +1,65 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: BOW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rЛук шалкера
+    custom-model-data: 3
+    enchants:
+      ARROW_INFINITE: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4ArOKM3JTi1yyi9nAAAZ51/hFwAAAA==
+created: 1595920475418
+
+lore:
+ - '§r§6Стреляет снарядами шалкера.'
+ - '§r§6Для стрельбы требуется'
+ - '§r§6пожеренный плод хоруса'
+ - '§r§6и стрела в инвентаре'
+ - '§r§6(Стрела тратиться не будет)'
+
+texture-author: 'NezuShin'
+
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_NUGGET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SHULKER_SHELL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_NUGGET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SHULKER_SHELL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§5Лук гаста
+        custom-model-data: 1
+        enchants:
+          FIRE_ASPECT: 2
+          ARROW_INFINITE: 1
+          KNOCKBACK: 2
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HDPSCwuccovZwAAcsG95BUAAAA=
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SHULKER_SHELL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_NUGGET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SHULKER_SHELL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_NUGGET

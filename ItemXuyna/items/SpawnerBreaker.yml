@@ -1,0 +1,45 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 1976
+  type: DIAMOND_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rЛоматель спавнеров
+    custom-model-data: 1
+    enchants:
+      SILK_TOUCH: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4AsuSCzPSy1yKkpNzE4tYgAAprcY4BsAAAA=
+lore:
+- §6С этой киркой вы можете ломать спавнеры
+- §6И они вам выпадут  в виде предмета!
+- §6Какое-то шаманство...
+
+
+texture-author: 'NezuShin'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EMERALD_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLDEN_APPLE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: EMERALD_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: NETHER_STAR
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: NETHER_STAR
+    - null
+    - null
+    - null

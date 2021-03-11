@@ -1,0 +1,13 @@
+
+hide: true
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rКопчёный сыр
+    custom-model-data: 3
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMPAE5+Znp6Y4Z6SmFqcyAABbyIBcKwAAAA==
+created: 1602446633544
