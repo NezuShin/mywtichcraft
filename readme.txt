@@ -5,7 +5,7 @@ RecipeHelper - кастомныйе крафты. Работает как отд
 ItemXuyna (Items.jar) - хуета, позволяющая загружать айтемы.
 AuthTexturePack - загрузка ресурспака по команде /rp.
 CustomEnderDragon - новый эндер дракон.
-AnvilAPI - api для всего вышеперечисленного.
+AnvilAPI - api, используемый во всё вышеперечисленном.
 
 Советую юзать ядро https://yatopiamc.org/ для сервера.
 
