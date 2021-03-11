@@ -1,0 +1,20 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"italic":false,"color":"yellow","text":"Totem of Dying"}],"text":""}'
+    custom-model-data: 1
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMPCE5Jek5vqnuVRm5qUzAABUu/dlKwAAAA==
+lore: []
+created: 1615066962140
+clear-tag: false
+type: ITEM
+hide: false
+texture-author: ''
+realisation-author: NezuShin
+block-type: StandSpawner
+prevent-anvil-enchant: false
+prevent-netherite-upgrade: false

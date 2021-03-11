@@ -1,0 +1,13 @@
+
+hide: true
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rЖёлтый помидор
+    custom-model-data: 7
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMPCE5OcmluRHpubk5JczAACS5LcGKwAAAA==
+created: 1602446773605

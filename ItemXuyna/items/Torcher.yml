@@ -1,0 +1,45 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 1976
+  type: FIREWORK_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK_EFFECT
+    display-name: §rАвтофакел
+    lore:
+    - §r§7Ставит факел под вами
+    - §r§7если уровень света меньше 11
+    - '§r§6Состояние: §r§aВключен'
+    custom-model-data: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwphYA/JL0rOSC1iZGBPzUtMyklNYWQAAPMd9kUfAAAA
+lore: 
+- '§r§6Ставит факел под вами'
+- '§r§6если уровень света меньше 11'
+- '§r§6Можно включать и выключать на ПКМ'
+
+
+texture-author: 'ZeroCaty'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DAYLIGHT_DETECTOR
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: REDSTONE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DISPENSER
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: REDSTONE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: TORCH
+    - null

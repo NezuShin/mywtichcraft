@@ -1,0 +1,48 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STRING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rОснова для визора
+    custom-model-data: 2
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4AzLLM4vckosTmUAAPUAkcUWAAAA
+created: 1594467307002
+lore: []
+clear-tag: false
+
+texture-author: 'Mr_Mr_Andrey0301'
+
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GLASS_PANE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GLASS_PANE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GLASS_PANE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: REDSTONE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: REDSTONE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: REDSTONE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: ENDER_EYE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT

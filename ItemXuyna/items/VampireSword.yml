@@ -1,0 +1,46 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 1976
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §4Меч вампира
+    custom-model-data: 3
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4AlLzC3ILEoNLs8vSmEAANt59hQZAAAA
+lore:
+- §6Очень грозное оружие,
+- §6но эффективно только ночью.
+- §6Под солнцем регенерация снижается на 20%
+- §6урон - на 15%
+- §6Ночью урон поднят на 15%
+- §6Под луной есть шанс регенерации от урона
+- §6В любое время может восстанавливать голод
+- §62 урона = 1 единица еды
+
+
+texture-author: 'NezuShin'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ZOMBIE_HEAD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: NETHER_STAR
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ZOMBIE_HEAD
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: NETHER_STAR
+    - null

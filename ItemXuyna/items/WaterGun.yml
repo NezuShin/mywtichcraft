@@ -1,0 +1,46 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STONE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rВодяной пистолет
+    custom-model-data: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4AhPLEktci/NYwAA60B0hRUAAAA=
+created: 1596032817744
+lore: 
+- '§r§6Стреляет струёй воды.'
+- '§r§6Для зарядки надо нажать ПКМ по воде'
+clear-tag: false
+
+texture-author: 'NezuShin'
+
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HEART_OF_THE_SEA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BUCKET
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEYCOMB
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: STICK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT

@@ -1,0 +1,41 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WOODEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rВаббаджек
+    custom-model-data: 5
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4A3LzMlJTE8tCi5JTEtjAAAhdG56GgAAAA==
+created: 1591239287688
+lore: 
+- '§r§6Для активации надо нажать shift + ПКМ'
+- '§r§6Меняет тип и профессию жителя на рандомные'
+
+
+texture-author: 'LillianMay'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: STRING
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: EMERALD
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: STICK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: STRING
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: STICK
+    - null
+    - null
