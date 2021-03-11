@@ -1,0 +1,60 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STONE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rМаяк от фантомов
+    lore:
+    - §r§7Так как всех достали фантомы,
+    - §r§7мы изобрели для вас маяк,
+    - §r§7который их отгоняет.
+    - §r§7Для его работы нам понадобится
+    - §r§7обычный маяк и мембрана фантома,
+    - §r§7но это не совсем стабильный блок
+    - §r§7и ему нужно железное и обсидианновое основание,
+    - §r§7чтобы он работал исправно
+    custom-model-data: 4
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVgdfLxd/bmYGABCTHwBmQk5pXk5zqlJibn5zEAAKntMGAtAAAA
+created: 1602526502845
+lore: 
+- '§r§6В радиусе 150 блоков от маяка'
+- '§r§6не будут спавниться фантомы.'
+- '§r§6§o(Ось y при посчёте расстояния не используется)'
+clear-tag: false
+type: ITEM
+
+texture-author: 'Mr_Mr_Andrey0301'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PHANTOM_MEMBRANE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PHANTOM_MEMBRANE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PHANTOM_MEMBRANE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PHANTOM_MEMBRANE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BEACON
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: PHANTOM_MEMBRANE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_BLOCK

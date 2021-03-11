@@ -1,0 +1,85 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: SHEARS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rБоевые ножницы
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 10.0
+        name: generic.attack.damage
+        slot: HAND
+        uuid: 5302efec-8628-4856-b65f-07f8b6c5612f
+        operation: 0
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -2.0
+        name: generic.attack.speed
+        slot: HAND
+        uuid: 3beda3bc-1015-45a9-be95-24e73fec2785
+        operation: 0
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HEpSkzPzwvOSE0sKmYAAL9QP3YZAAAA
+created: 1589966492198
+lore:
+- §r§6Позволяют выбить яйцо с дракона
+
+
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SHEARS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_SWORD
+    - null
+    - null
+    - null
+  '1':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SHEARS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_SWORD
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+  '2':
+    type: shaped
+    matrix:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SHEARS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_SWORD

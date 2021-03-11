@@ -1,0 +1,70 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 1976
+  type: DIAMOND_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §r§6Нагрудник с крыльями
+    lore:
+    - §rТы на земле - это нагрудник
+    - §rТы в воздухе - это элитры
+    custom-model-data: 1
+    enchants:
+      PROTECTION_FALL: 4
+      PROTECTION_ENVIRONMENTAL: 4
+    attribute-modifiers:
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.armor.toughness
+        slot: CHEST
+        uuid: 8466a070-ddb5-4ced-8a2b-8dcd4f03b9ed
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 8.0
+        name: generic.armor
+        slot: CHEST
+        uuid: bec813c5-1732-42e6-846e-e733a409fa22
+        operation: 0
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwphEHDNqSwpSnTOSC0uKchJLEllAADWhIlrHQAAAA==
+    
+texture-author: 'sidey383'
+    
+crafts:
+  '0':
+    type: shaped
+    matrix:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: NETHER_STAR
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: NETHER_STAR
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: IRON_INGOT
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: ELYTRA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: IRON_INGOT
+      - null
+      - null
+      - null
+lore:
+- ''
+- ''
+- §6С этим нагрудником можно летать как с элитрами, но
+- §6при этом он продолжает защищать вас как алмазные нагрудник!
+- §6Элитры, при этом, не ломаются

@@ -1,0 +1,68 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §rПчелиный визор
+    attribute-modifiers:
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 3.0
+        name: generic.armor
+        slot: HEAD
+        uuid: 44f333a9-5d86-4010-b147-25157c036cec
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.armor.toughness
+        slot: HEAD
+        uuid: f84524b5-cb00-4c53-99ae-ef3190833263
+        operation: 0
+    internal: H4sIAAAAAAAAAFVRyZKjRhRkJsYRPR3+DN8UHQIESBzmwE5JKhCLWOoGYis2bezf4k/wR1rd9sE+ZURmvnz54r0TxDvxu1P1dX16XDNcp2/EDyNqUuKnnLZSkabP9J14f2m39NHh9PmTeOvSqesf6fOdIIhvb8RPB+dt9Ml8/yvdBSRuT+AIqttd8ou7yPbCLUfVPG3npMo3SKXGOzNu0ouG/f25EKwu42SXCVZzLcVVzFPNpX/sH0PB3ZC09xLSHiZ1M0/C0al9c3xOUnk8czic961kB+X+YK9jus3ybTXTqh8qDj+gEuIEeowV0vU28SaX5UZh9ha21xUG7ScrbmKsZkK6O5K1u+M3RSta2h108lSfZ8gE4Frpx4vMdAzCGw2X83oMQDJ1zWW3WKvsjte3rF9PHhfLZDkNLnM7XiiTorPOyaKGOmyeR+jLg2sO/UDFyspkxScaJ05+OKWhiL3c6B0tHLS9Fe361KDYiBIVS+FW6vKgcQxqp5AOTjBvTj5Dz3WyyEsWUHBu66U1+PZAXkt6Mnru2nvm4j114D23YaoccEMZoaEMnFQ57sOOpzHzdzxi7ss1D6bmUZxElYw8cnIevK0pk0rP9xyzp0FZHVLJmQ+dz4prSBqnbmuWgE+65r5Glp5qTtV69QlVfG+h1RpJVa3Ihz6uSegdWJBwOQ/QDrWMxCjsiZMy0tPnAlfHLXh0qghnUaMF1diJXUf701CInB6sh0I/mnHgJdoyGhoMnfU2BOt6y2SCKK+TxdqxpjBbNjs3bm8n+syc0HYVgBu6UYxGm0e3uxY0YywJH/KeCc7CyMWVu9vBBYG8fbKJJgwKXkW0qKsgv/e8FW2nq6XiwJbD66834jcvqvv025/peM2BtCcjn6ovG7uIAwED+ZpD98waskWbrkWZbkUbeDwAScAXfT+gpn6ic10BLHBAAgwqBTKkLQrJdoVkgYSyWIWlMKGyLpCMCkOuMSwrEjrgKWEhB604xzS6xZpnhq+9/+TsFeSzcqR59YU+46Pw1WuJ/KQPA5u6NJ6DApWKgn2NJJCbWCQvr8f86yNRUJDJS7vMX9r2a8+r75ns9i7+H/fpf+WNX3eC5jWnC9xx5v+TwXaRz9bhZl+g1urjxiOPG7tO9c8e58FYUBmWFQV9tYIlwlB+4eJVpgtpWMINLC8LpM9jWKoYNnZp+uGLrxujQbWxhBTS4AKXfAlLwEDfLg1Z2cAZHL666eQLRV5qyV8E8UZ8Bwnxxy4jmUvCJh9MkpAfDEkmHzFJZR98lHARw8c0z1Av7w/JEF3iXb+26ezh5/VB/A0lBGgD4wQAAA==
+    skull-owner: DenCheese
+created: 1594470014738
+lore: 
+- '§r§6Показывает информацию о пчёлах и ульях,'
+- '§r§6путь пчёл к цветам, ульям.'
+- '§r§6(При нажатии ПКМ по улью/пчеле)'
+clear-tag: false
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GLASS_PANE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: STRING
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §rОснова для визора
+        custom-model-data: 2
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4AzLLM4vckosTmUAAPUAkcUWAAAA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GLASS_PANE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEYCOMB_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEYCOMB_BLOCK

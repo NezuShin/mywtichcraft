@@ -1,0 +1,285 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: IRON_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §r§6§lСпектральный меч
+    custom-model-data: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HLOyEnNCy7PL0phAADmjjc/FwAAAA==
+created: 1590949095245
+lore: 
+- '§r§6Стреляет сферами из эктоплазмы,'
+- '§r§6не тратя ресурсов, но есть задержка между залпами.'
+- '§r'
+- '§r§7Коментарий победителя:'
+- '§r§8§oНахуй надо посодить этого победителя'
+
+texture-author: ''
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_13
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_13
+  '1':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_CAT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_CAT
+  '2':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_BLOCKS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_BLOCKS
+  '3':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_CHIRP
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_CHIRP
+  '4':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_FAR
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_FAR
+  '5':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_MALL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_MALL
+  '6':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_MELLOHI
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_MELLOHI
+  '7':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_STAL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_STAL
+  '8':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_STRAD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_STRAD
+  '9':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_WARD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_WARD
+  '10':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_11
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_11
+  '11':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SCUTE
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_WAIT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: BLAZE_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: MUSIC_DISC_WAIT

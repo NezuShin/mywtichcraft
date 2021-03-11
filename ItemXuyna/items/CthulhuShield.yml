@@ -1,0 +1,92 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: SHIELD
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    display-name: §rЩит ктулху
+    lore:
+    - '§rПрочность: 500 / 500'
+    custom-model-data: 2
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eViEHAuLS7Jz3UpLUpMyszJLKlkZuD1TaxA8BkYGL8wM3AhCzCAjGIBGcXA61ySUZqTURqckZmak8IAACvr62BlAAAA
+    blockMaterial: SHIELD
+created: 1604546777765
+lore:
+- '§r§6Максимальная прочность: 500'
+- §r§6При двойном нажатии ПКМ
+- §r§6вы делаете рывок, нанося всем вокруг
+- §r§6урон в 10 hp.
+clear-tag: false
+type: ITEM
+hide: false
+
+texture-author: 'Mr_Mr_Andrey0301'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GUNPOWDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fМешок биомассы
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4EtKTI/PT4tPyszPTSwuZgAAiwnvHxsAAAA=
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fБио-рукаять
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4ErKzI/PSMxLyUllAADqmFclFwAAAA==
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GUNPOWDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fМешок биомассы
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4EtKTI/PT4tPyszPTSwuZgAAiwnvHxsAAAA=
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: SHIELD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GUNPOWDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fМешок биомассы
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4EtKTI/PT4tPyszPTSwuZgAAiwnvHxsAAAA=
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fБио-рукаять
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4ErKzI/PSMxLyUllAADqmFclFwAAAA==
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: GUNPOWDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fМешок биомассы
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4EtKTI/PT4tPyszPTSwuZgAAiwnvHxsAAAA=

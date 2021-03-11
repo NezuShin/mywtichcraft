@@ -1,0 +1,70 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 1976
+  type: IRON_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rЦепная пила
+    custom-model-data: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HDOSMzMK04sZwAAboxFcxUAAAA=
+lore: 
+- '§6Рубит весь ствол дерева.'
+- '§6Не требует ничего для своей работы.'
+- '§6Криво работает с большими деревьями'
+
+texture-author: 'Alblaka (IC2)'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_BARS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: REDSTONE_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_BARS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: FURNACE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: LEVER
+    - null
+  '1':
+    type: shaped
+    matrix:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_BARS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: REDSTONE_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_BARS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: LEVER
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: FURNACE
+    - null

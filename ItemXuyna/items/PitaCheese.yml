@@ -1,0 +1,13 @@
+
+hide: true
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rЛаваш сырный
+    custom-model-data: 6
+    internal: H4sIAAAAAAAAAONiYOBg4HT2cwqJD4kMcGVg8Qxx9eVgYAGJMHAFZJYkOmekphanMgAAeK4jsikAAAA=
+created: 1602446705474

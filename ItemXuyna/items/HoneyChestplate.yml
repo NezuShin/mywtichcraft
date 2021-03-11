@@ -1,0 +1,55 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: DIAMOND_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rМедовый нагрудник
+    lore:
+    - §r§eУровень мёда:§r 0
+    custom-model-data: 4
+    internal: H4sIAAAAAAAAAONiYGBm4Hf2cwqJ98jPS630SS1LzWEAAg4GFpAoAz9Y2DkjtbikICexJJUBAP/YjjsyAAAA
+created: 1595091081008
+lore: 
+- '§r§6Позволяет призвать пчелу, на которой можно летать.'
+- '§r§6Для призыва надо держать в руке медовый меч'
+- '§r§6и два раза нажать на shift.'
+- '§r§6При этом уровень мёда должен быть минимум 1.'
+- '§r§6Пополнить уровень мёда можно выпив бутылочку мёда.'
+- '§r§6Ездавая пчела может перевозить вас до 5 минут.'
+- '§r§6Для того, чтобы менять высоту, нажмите пробел и'
+- '§r§6смотрите в нужную сторону'
+
+texture-author: 'LillianMay & Mr_Mr_Andrey0301'
+
+clear-tag: false
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: FEATHER
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: FEATHER
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: HONEY_BLOCK

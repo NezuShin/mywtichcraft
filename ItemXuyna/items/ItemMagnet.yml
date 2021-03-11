@@ -1,0 +1,45 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: PRISMARINE_SHARD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §rМагнит
+    custom-model-data: 2
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4PIsSc31TUzPSy1hAAAOyFyjFwAAAA==
+created: 1595940248234
+lore:
+- §r§6Притягивает к себе все лежащие предметы
+- §r§6в радиусе 10 блоков
+clear-tag: false
+
+texture-author: 'NezuShin'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: REDSTONE_BLOCK
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: REDSTONE_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: IRON_INGOT

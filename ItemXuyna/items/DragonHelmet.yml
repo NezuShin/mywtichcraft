@@ -1,0 +1,82 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: DRAGON_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §r§bШлем дракона
+    attribute-modifiers:
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 4.0
+        name: generic.armor.toughness
+        slot: HEAD
+        uuid: 93b783f8-d91c-484a-bd90-30df806a7d07
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 5.0
+        name: generic.armor
+        slot: HEAD
+        uuid: 3e0ef85b-dc83-4501-bc7c-1006777a3c15
+        operation: 0
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HEpSkzPz/NIzclNLWEAAK51lr4ZAAAA
+created: 1592214808051
+lore:
+- §r§6Облака эффектов других драконов
+- §r§6наносят на 20% меньше урона.
+- §r§6На игрока в шлеме нельзя наложить
+- §r§6эффект медлительности.
+- §r§6На игрока §rво всём сете§r§6 нельзя наложить
+- §r§6эффект отравления.
+clear-tag: false
+crafts:
+  '0':
+    type: shaped
+    matrix:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DRAGON_BREATH
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DIAMOND_HELMET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DRAGON_BREATH
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: ENDER_PEARL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: DRAGON_HEAD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: ENDER_PEARL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§bЗвезда энда
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HTNS0ktCi5JLGIAALzaAZ8WAAAA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§bЗвезда энда
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HTNS0ktCi5JLGIAALzaAZ8WAAAA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§bЗвезда энда
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4HTNS0ktCi5JLGIAALzaAZ8WAAAA

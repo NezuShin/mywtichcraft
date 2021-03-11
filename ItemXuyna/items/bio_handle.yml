@@ -1,0 +1,47 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 1976
+  type: FLINT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §fБио-рукаять
+    custom-model-data: 1
+    internal: H4sIAAAAAAAAAONiYOBgYHH2cwph4ErKzI/PSMxLyUllAADqmFclFwAAAA==
+lore:
+- '§6Игредиент для других крафтов'
+- '§6Сам по себе не используется'
+
+texture-author: 'Андрей Кузнецов'
+
+crafts:
+  '0':
+    type: shaped
+    matrix:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: CHORUS_FRUIT
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: SOUL_SAND
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: GHAST_TEAR
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: SOUL_SAND
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: STICK
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: SOUL_SAND
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: STICK
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: SOUL_SAND
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: CHORUS_FRUIT
