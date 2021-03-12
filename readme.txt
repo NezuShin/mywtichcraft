@@ -9,6 +9,7 @@ AnvilAPI - api, используемый во всё вышеперечисле�
 Vault - api, необходимый для загрузки ScriptMenus. spigotmc page: https://www.spigotmc.org/resources/vault.34315/
 WorldEdit -  api, необходимый для загрузки некоторых айтемов и дракона. bukkit page: https://dev.bukkit.org/projects/worldedit
 WorldGuard - Приваты. Необходим для загрузки некоторых айтемов. bukkit page: https://dev.bukkit.org/projects/worldguard
+EssentialsX - Все основные команды (такие как home and spawn). Нужен для работы измерителя тпс. spigotmc page: https://www.spigotmc.org/resources/essentialsx.9089/
 
 Советую юзать ядро https://yatopiamc.org/ для сервера.
 
