@@ -1,0 +1,227 @@
+[12:20:48] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:20:48] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[12:20:48] [Worker-Main-4/INFO]: Loaded 7 recipes
+[12:20:49] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[12:20:49] [Server thread/INFO]: Loading properties
+[12:20:49] [Server thread/INFO]: This server is running Paper version git-Paper-545 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[12:20:49] [Server thread/INFO]: Debug logging is disabled
+[12:20:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:20:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:20:49] [Server thread/INFO]: Default game type: SURVIVAL
+[12:20:49] [Server thread/INFO]: Generating keypair
+[12:20:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:20:50] [Server thread/INFO]: Using default channel type
+[12:20:50] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:20:54] [Server thread/WARN]: Legacy plugin AnvilAPI v1.0 does not specify an api-version.
+[12:20:54] [Server thread/WARN]: Legacy plugin AuthResourcePack v1.0 does not specify an api-version.
+[12:20:54] [Server thread/INFO]: [AnvilAPI] Loading AnvilAPI v1.0
+[12:20:54] [Server thread/INFO]: [AuthResourcePack] Loading AuthResourcePack v1.0
+[12:20:54] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[12:20:54] [Server thread/INFO]: [RecipeHelper] Loading RecipeHelper v1.0
+[12:20:54] [Server thread/INFO]: [ScriptMenus] Loading ScriptMenus v1.1
+[12:20:54] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.3+5680-135941e
+[12:20:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@185f837]
+[12:20:54] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.2.0
+[12:20:54] [Server thread/INFO]: [ItemXuyna] Loading ItemXuyna v1.0
+[12:20:54] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.4+f7ff984
+[12:20:54] [Server thread/INFO]: [CustomEnderDragon] Loading CustomEnderDragon v1.0
+[12:20:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:20:54] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[12:20:54] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.18.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[12:20:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[12:20:54] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:20:54] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[12:20:54] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.3+5680-135941e
+[12:20:54] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[12:20:54] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[12:20:55] [Server thread/INFO]: [CustomEnderDragon] Enabling CustomEnderDragon v1.0
+[12:20:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:20:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:20:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:20:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:20:55] [Server thread/INFO]: Preparing level "world"
+[12:20:55] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:20:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:20:56] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[12:20:56] [Server thread/INFO]: Preparing spawn area: 0%
+[12:20:56] [Server thread/INFO]: Time elapsed: 274 ms
+[12:20:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:20:56] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[12:20:56] [Server thread/INFO]: Time elapsed: 87 ms
+[12:20:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:20:56] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[12:20:56] [Server thread/INFO]: Time elapsed: 173 ms
+[12:20:56] [Server thread/INFO]: [AnvilAPI] Enabling AnvilAPI v1.0*
+[12:20:56] [Server thread/INFO]: [AuthResourcePack] Enabling AuthResourcePack v1.0*
+[12:20:56] [Server thread/WARN]: [AuthResourcePack] Loaded class nezu.anvils.yml.ConfigHelper from AnvilAPI v1.0 which is not a depend, softdepend or loadbefore of this plugin.
+[12:21:09] [Server thread/INFO]: [AuthResourcePack] Reloaded TexturePack. It took 13270ms. hash: 68fe1c0c348cb82086ba9d1f89a8d6a745a212f3
+[12:21:09] [Server thread/INFO]: [RecipeHelper] Enabling RecipeHelper v1.0
+[12:21:09] [Server thread/WARN]: [RecipeHelper] Loaded class nezu.anvils.nbt.CustomNbtTagCompaund from AnvilAPI v1.0 which is not a depend, softdepend or loadbefore of this plugin.
+[12:21:09] [Server thread/INFO]: [ScriptMenus] Enabling ScriptMenus v1.1
+[12:21:12] [Server thread/INFO]: [ScriptMenus] loaded 11 menus
+[12:21:12] [Server thread/INFO]: [ScriptMenus] loaded 13 commands
+[12:21:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.2.0
+[12:21:12] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[12:21:12] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[12:21:12] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[12:21:12] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[12:21:12] [Server thread/INFO]: [Essentials] Starting usermap repair
+[12:21:12] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[12:21:12] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[12:21:12] [Server thread/INFO]: [Essentials] Loaded 25599 items from items.json.
+[12:21:12] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[12:21:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[12:21:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:21:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[12:21:12] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[12:21:12] [Server thread/INFO]: [ItemXuyna] Enabling ItemXuyna v1.0
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'AnonymousMask' enabled
+[12:21:12] [Server thread/WARN]: [ItemXuyna] Loaded class nezu.script.util.ItemUtil from ScriptMenus v1.1 which is not a depend, softdepend or loadbefore of this plugin.
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'ArmorStandEdit' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'AtomicReconstructor' enabled
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'bag_of_biomass'
+[12:21:12] [Server thread/WARN]: Unable to resolve BlockEntity for ItemStack: minecraft:beehive
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'BeeHive' enabled
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'bio_handle'
+[12:21:12] [Server thread/WARN]: [ItemXuyna] Loaded class com.sk89q.worldguard.protection.flags.StateFlag from WorldGuard v7.0.4+f7ff984 which is not a depend, softdepend or loadbefore of this plugin.
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'Chainsaw' enabled
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'Cheese'
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'ChlenSword' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'CompoundBow' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'CthulhuShield' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'DamageIndicator' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'DiamondDragonBoots' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'DiamondPickaxeWithFurnace' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'DiscEditor' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'DragonBoots' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'DragonChestplate' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'DragonEggShell' enabled
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'DragonHead'
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'DragonHelmet' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'DragonLeggings' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'DragonShears' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'DragonSword' enabled
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'Elytra'
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'ElytraChestplate' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'EnderAxe' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'EnderPickaxe' enabled
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'EnderStar'
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'EnderStuff' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'EvokerSword' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'ExecutionerAxe' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'ExplosionHelmet' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'FeatherBoots' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'FireSword' enabled
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'GachiChestplate'
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'GachiHelmet'
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'GachiLeggings'
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'GhastBow' enabled
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'GhastBowPart'
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'GPSLocator' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'GravityGun' enabled
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'GravityGunPart'
+[12:21:12] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'GuardianRod'
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'GuardianSword' enabled
+[12:21:12] [Server thread/INFO]: [ItemXuyna] executor for 'Guitar' enabled
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'HandStand'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'Hard—heese'
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'HoneyBoots' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'HoneyChestplate' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'HoneyLeggings' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'HoneyShield' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'HoneySword' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'HoneyVisor' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'ItemMagnet' enabled
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'MoldCheese'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'NotScrambledDragonEgg'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'ObsidianBoots'
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'ObsidianChestplate' enabled
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'ObsidianHelmet'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'ObsidianLeggings'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'Onion'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'OnionBulb'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'OnionGreen'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'OnionRed'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'PaintCanvas'
+[12:21:13] [Server thread/INFO]: [ItemXuyna] loaded 0 maps
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'PaintTool' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'PhantomBeacon' enabled
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'Pickle'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'PickleSalt'
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'pick_with_furance' enabled
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'Pita'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'PitaCheese'
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'PlayerSaddle' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'Poop' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'PrankTNT' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'RenameBook' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'RubyOre' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'SalmonGun' enabled
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'Sauce'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'SauceGarlic'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'SauceKetchunes'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'SauceSlizoda'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'SauceSour—ream'
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'ScrambledDragonEgg' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'ShaggotSword' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'Shaurma' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'ShaurmaBlock' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'ShulkerBow' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'SitPotion' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'SlimeFinder' enabled
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'SmokedCheese'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'SodaBlock'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'Soft—heese'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'Spat'
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'SpawnerBreaker' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'Teleporter' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'Tomato' enabled
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'TomatoCherry'
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'TomatoYellow'
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'Torcher' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'TotemOfDying' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'TPSMeter' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'VampireSword' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'VillagerStaff' enabled
+[12:21:13] [Server thread/WARN]: [ItemXuyna] connot found class executor for item 'VisorBase'
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'WaterGun' enabled
+[12:21:13] [Server thread/INFO]: [ItemXuyna] executor for 'WitchHat' enabled
+[12:21:13] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.4+f7ff984
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[12:21:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[12:21:13] [Server thread/INFO]: [WorldGuard] Loading region data...
+[12:21:13] [Server thread/INFO]: Running delayed init tasks
+[12:21:13] [Craft Scheduler Thread - 13/INFO]: [Vault] Checking for Updates ... 
+[12:21:13] [Craft Scheduler Thread - 17/INFO]: [ItemXuyna] loaded 0 custom chunks
+[12:21:13] [Server thread/INFO]: Done (24.144s)! For help, type "help"
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_271
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
+[12:21:13] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[12:21:13] [Server thread/INFO]: Timings Reset
+[12:21:14] [Craft Scheduler Thread - 5/WARN]: [ScriptMenus] Loaded class nezu.item.Items from ItemXuyna v1.0 which is not a depend, softdepend or loadbefore of this plugin.
+[12:21:20] [Craft Scheduler Thread - 13/INFO]: [Vault] No new version available
