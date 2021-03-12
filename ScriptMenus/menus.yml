@@ -1,0 +1,838 @@
+menus:
+  craftEditor:
+    nodes:
+      '23':
+        item: LEGACY_WORKBENCH
+        amount: 1
+        slot: '23'
+        name: '&rType'
+      '0':
+        item: LEGACY_IRON_FENCE
+        amount: 1
+        slot: 0,4,5,6,7,8,9,13,15,17,18,22,24,25,26
+        name: ' '
+      '14':
+        item: LEGACY_STAINED_GLASS_PANE
+        amount: 1
+        slot: '14'
+        name: '&rdone'
+    script: craftEditor.js
+    title: craftEditor
+    rows: 3
+    dontCancel: 1,2,3, 10, 11, 12,19,20,21
+    permission: scriptmenus.crafteditor
+  donate:
+    nodes:
+      '9':
+        item: CRAFTING_TABLE
+        name: '&r&9Ваши крафты'
+        lore:
+        - §7 - Мы можем реализовать ваш предмет
+        - §7 - на этом сервере.
+        - §7 - Главное условие это то, что предмет
+        - §7 - не должен портить баланс.
+        - §7 - Цена от 200 рублей и выше, в
+        - §7 - зависимости от сложности реализации
+        - §7 - По поводу этого писать в вк (нажать для ссылки)
+        amount: 1
+        slot: '27'
+      '1':
+        item: PLAYER_HEAD
+        name: '&rПростолюдин'
+        amount: 1
+        slot: '4'
+        skull: NezuShin
+        lore:
+        - '&f[+] &7Набор - &e/kit start'
+        - '&f[+] &7Основыне команды'
+        - ''
+        - '&f[p] &7Количество регионов:&5 1'
+        - '&f[p] &7Количество домов:&3 1'
+        - - '&f[p] &7Количество слотов эндерсундука:&5 9'
+      '13':
+        item: DIAMOND
+        name: '&r&cСайт с донатом'
+        amount: 1
+        slot: '8'
+      '2':
+        item: ZOMBIE_HEAD
+        name: '&2&lЗомби&f  40&r руб. Навсегда'
+        amount: 1
+        slot: '12'
+        lore:
+        - '&f[+] &7Возможность сменить скин'
+        - '&f[+] &7Набор - &e/kit zombie'
+        - '&f[+] &7Возможность писать цветные сообщения в чате'
+        - '&f[+] &7Очистить инвентарь - &e/clear'
+        - '&f[+] &7Верстак с собой - &e/workbench'
+        - '&7'
+        - '&f[p] &7Количество домов:&3 2'
+        - '&f[p] &7Префикс: &2Зомби'
+        - ''
+        - '&f[v] &8Имеет все возможности предыдущей группы'
+      '3':
+        item: GOLD_INGOT
+        name: '&6&lОборотень&f  90 руб. Навсегда'
+        amount: 1
+        slot: '13'
+        lore:
+        - '&f[+] &7Набор - &e/kit werewolf'
+        - '&f[+] &7Вернуться на предыдущую локацию - &e/back'
+        - '&f[+] &7Запас еды - &e/feed &8(каждый час)'
+        - '&f[+] &7Возможность отключать спавн мобов в регионе'
+        - '&f[+] &7Возможность загрузить изображение на холст'
+        - '&7&o(См. предмет Холст в /crafts)'
+        - '&7'
+        - '&f[p] &7Количество слотов эндерсундука:&5 18'
+        - '&f[p] &7Префикс: &6Оборотень'
+        - ''
+        - '&f[v] &8Имеет все возможности предыдущей группы'
+      '4':
+        item: POTION
+        name: '&b&lВедьма&f    150&r руб. Навсегда'
+        amount: 1
+        slot: '14'
+        lore:
+        - '&f[+] &7Набор - &e/kit witch'
+        - '&f[+] &7Возможность чинить вещи - &e/repair &8(каждые 4 часа)'
+        - '&f[+] &7Запас еды - &e/feed &8(каждые 40 минут)'
+        - '&f[+] &7Вылечить себя - &e/heal &8(каждый час)'
+        - '&f[+] &7Возможность создать второй регион'
+        - '&f[+] &7Возможность установить второй дом'
+        - '&f[+] &7Надеть предмет на голову - &e/hat'
+        - '&f[+] &7Эндерсундук с собой - &e/enderchest'
+        - '&f[+] &7Не кикает за афк'
+        - '&7'
+        - '&f[p] &7Количество регионов:&5 2'
+        - '&f[p] &7Количество слотов эндерсундука:&5 27'
+        - '&f[p] &7Префикс: &bВедьма'
+        - ''
+        - '&f[v] &8Имеет все возможности предыдущей группы'
+      '5':
+        item: DIAMOND
+        name: '&5&lВампир&f    500&r руб. Навсегда'
+        amount: 1
+        slot: '21'
+        lore:
+        - '&f[+] &7Набор - &e/kit vampir'
+        - '&f[+] &7Доступ к полету - &e/fly &8(5 минут в день)'
+        - '&f[+] &7Установить день - &e/day &8(каждые 5 часов)'
+        - '&f[+] &7Установить ночь - &e/night &8(каждые 5 часов)'
+        - '&f[+] &7Запас еды - &e/feed &8(каждые 30 минут)'
+        - '&f[+] &7Вылечить себя - &e/heal &8(каждые 45 минут)'
+        - '&f[+] &7Потушить себя - &e/ext'
+        - '&f[+] &7Возможность чинить вещи - &e/repair &8(каждые 3 часа)'
+        - '&7'
+        - '&f[p] &7Количество домов:&3 3'
+        - '&f[p] &7Количество слотов эндерсундука:&5 36'
+        - '&f[p] &7Префикс: &5Вампир'
+        - ''
+        - '&f[v] &8Имеет все возможности предыдущей группы'
+        - ''
+      '6':
+        item: PLAYER_HEAD
+        name: '&4&lДемон&f    990&r руб. Навсегда'
+        amount: 1
+        slot: '22'
+        skull: NezuShin
+        lore:
+        - '&f[+] &7Набор - &e/kit demon'
+        - '&f[+] &7Доступ к полету - &e/fly &8(10 минут в день)'
+        - '&f[+] &7Посмотреть инвентарь игрока - &e/invsee'
+        - '&f[+] &7Доступен файербол - &e/fireball'
+        - '&f[+] &7Доступно использование молнии - &e/lightning'
+        - '&f[+] &7Возможность чинить вещи - &e/repair &8(каждый час)'
+        - '&f[+] &7Совершить суицид - &e/suicide'
+        - '&f[+] &7Сохранение уровня при смерти'
+        - '&f[+] &7Доступны флаги для регионов: enderpearl, lightning,'
+        - '  &7lava-flow, water-flow, ice-form, ice-melt, item-drop'
+        - ''
+        - '&f[p] &7Количество слотов эндерсундука:&5 45'
+        - '&f[p] &7Количество регионов:&5 3'
+        - '&f[p] &7Префикс: &4Демон'
+        - ''
+        - '&f[v] &8Имеет все возможности предыдущей группы'
+        - ''
+      '11':
+        item: PLAYER_HEAD
+        name: '&c&lДьявол&f    1490&r руб. Навсегда'
+        amount: 1
+        slot: '23'
+        lore:
+        - '&f[+] &7Набор - &e/kit devil'
+        - '&f[+] &7Доступ к полету - &e/fly &8(20 минут в день)'
+        - '&f[+] &7Найти игроков поблизости - &e/near'
+        - '&f[+] &7Возможность писать объявления - &e/broadcast'
+        - '&f[+] &7Возможность чинить вещи - &e/repair &8(каждые 30 минут)'
+        - '&f[+] &7Установка варпа'
+        - '  &r&7&oСм. Телепортер в /crafts'
+        - '&f[+] &7Установка флага potion-splash, damage-animals'
+        - '&f[+] &7Возможность менять погоду - &e/sun&7, &e/storm'
+        - ''
+        - '&f[p] &7Количество слотов эндерсундука:&5 54'
+        - '&f[p] &7Количество регионов:&5 4'
+        - '&f[p] &7Количество домов:&3 4'
+        - '&f[p] &7Префикс: &cДьявол'
+        - ''
+        - '&f[v] &8Имеет все возможности предыдущей группы'
+      '10':
+        item: DIAMOND
+        name: '&6&lСпонсор&f    3000&r руб. Навсегда'
+        slot: '31'
+        lore:
+        - '&f[+] &7Набор - &e/kit sponsor'
+        - '&f[+] &7Бесконечный полет'
+        - '&f[+] &7Возможность бесплатно менять префикс'
+        - '&f[+] &7Может бесконечно использовать &e/feed'
+        - '&f[+] &7Может бесконечно чинить вещи'
+        - '&f[+] &7Отключить чат игроку - &e/mute'
+        - '&f[+] &7Кикнуть игрока - &e/kick &8раз в 5 часов'
+        - '&f[+] &7Менять время суток без ограничении - &e/day&7, &e/night'
+        - '&7'
+        - '&f[p] &7Префикс: &6Спонсор'
+        - ''
+        - '&f[v] &8Имеет все возможности группы &cДьявол'
+      '8':
+        item: BARRIER
+        name: '&r&4Выйти'
+        amount: 1
+        slot: '35'
+      '14':
+        item: PLAYER_HEAD
+        name: '&r&6Постфиксы (суфиксы) &100&6 руб'
+        amount: 1
+        slot: '0'
+        lore:
+        - §7 - Возможность установить ваш суфикс для ника
+        - §7 - По поводу этого писать в вк (нажать для ссылки)
+      '15':
+        item: ENDER_CHEST
+        name: '&b&lКейс с привилегиями'
+        amount: 1
+        slot: '25'
+        lore:
+        - '&fШансы:'
+        - '&2Зомби &7- 45%'
+        - '&8Оборотень &7- 25%'
+        - '&aВедьма &7- 15%'
+        - '&6Вампир &7- 10%'
+        - '&4Демон &7- 5%'
+        - ''
+        - '&fЦена:&7 150 руб'
+      '1337':
+        item: ENDER_CHEST
+        name: '&a&lКейс с привилегиями lite'
+        amount: 1
+        slot: '16'
+        lore:
+        - '&fШансы:'
+        - '&2Зомби &7- 45%'
+        - '&8Оборотень &7- 5%'
+        - '&r&fТрезубец &7- 5%'
+        - '&r&6Кирка с печкой &7- 20%'
+        - '&r&8Магнит &7- 5%'
+        - '&r&dКлинок Шаггота &7- 10%'
+        - '&r&bРедактор армор стендов &7- 10%'
+        - ''
+        - '&fЦена:&7 90 руб'
+      '0':
+        item: PURPLE_STAINED_GLASS_PANE
+        amount: 1
+        slot: 1,2,3,5,6,7,9,10,11,15,17,18,19,24,20,26,28,29,30 ,32,33,34
+    script: donate.js
+    title: донат || mywitchcraft.ru
+    rows: 4
+  item_list:
+    nodes:
+      '27':
+        item: WRITABLE_BOOK
+        name: '&rЧто это такое?'
+        lore:
+        - §7На сервере реализованы "особые" предметы
+        - §7со своими свойстваим и особенностями.
+        - §7Они представленны тут.
+        - §7Для получения рецепта - нажмите на предмет.
+        - §r
+        - §7Со временем какие-то крафты будут удаляться
+        - §7А какие-то добавляться
+        - §r
+        - §7Возможна реализация вашего крафта
+        - §7инфромацию об этом можно узнать в меню доната
+        amount: 1
+        slot: '27'
+        nbt: '{display:{Name:''{"text":"§rЧто это такое?"}'',Lore:[''{"text":"§7На
+          сервере реализованы \\"особые\\" предметы"}'',''{"text":"§7со своими свойстваим
+          и особенностями."}'',''{"text":"§7Они представленны тут."}'',''{"text":"§7Для
+          получения рецепта - нажмите на предмет."}'',''{"text":"§r"}'',''{"text":"§7Со
+          временем какие-то крафты будут удаляться"}'',''{"text":"§7А какие-то добавляться"}'',''{"text":"§r"}'',''{"text":"§7Возможна
+          реализация вашего крафта"}'',''{"text":"§7инфромацию об этом можно узнать
+          в меню доната"}'']},CustomModelData:2}'
+      '30':
+        item: SPECTRAL_ARROW
+        name: '&rНазад'
+        amount: 1
+        slot: '30'
+        nbt: '{display:{Name:''{"text":"§rНазад"}''},CustomModelData:2}'
+      '32':
+        item: SPECTRAL_ARROW
+        name: '&rВперёд'
+        amount: 1
+        slot: '32'
+        nbt: '{display:{Name:''{"text":"§rВперёд"}''},CustomModelData:1}'
+      '28':
+        item: IRON_BARS
+        amount: 1
+        slot: 28,29,31,33,34
+        nbt: '{display:{Name:''{"text":"§r"}''},CustomModelData:1}'
+      '35':
+        item: BARRIER
+        name: '&r&4Выйти'
+        amount: 1
+        slot: '35'
+        nbt: '{display:{Name:''{"text":"§r§4Выйти"}''},CustomModelData:2}'
+    script: items_list.js
+    title: Список крафтов
+    rows: 4
+  craft_of:
+    nodes:
+      '18':
+        item: comparator
+        amount: 1
+        slot: '18'
+        name: '&rНазад'
+        nbt: '{display:{Name:''{"text":"§rНазад"}''},CustomModelData:1}'
+      '3':
+        item: spectral_arrow
+        amount: 1
+        slot: '0'
+        name: '&rНазад'
+        nbt: '{display:{Name:''{"text":"§rНазад"}''},CustomModelData:2}'
+      '4':
+        item: spectral_arrow
+        amount: 1
+        slot: '8'
+        name: '&rНазад'
+        nbt: '{display:{Name:''{"text":"§rВперёд"}''},CustomModelData:1}'
+      '1':
+        item: IRON_BARS
+        amount: 1
+        slot: 1,5,6,7,10,16,19,23,24,25,9,14,17
+        name: ' '
+        nbt: '{display:{Name:''{"text":"§r"}''},CustomModelData:1}'
+      '26':
+        item: BARRIER
+        name: '&r&4Выйти'
+        amount: 1
+        slot: '26'
+        nbt: '{display:{Name:''{"text":"§r§4Выйти"}''},CustomModelData:2}'
+    requiredArgs: 1
+    script: craft_of.js
+    title: Крафт
+    rows: 3
+  rules:
+    nodes:
+      '1':
+        item: BOOK
+        name: '&6Основные положения'
+        lore:
+        - §81 Играя на сервере, вы полностью принимаете
+        - §8 пользовательское соглашение сервера.
+        - §82 Незнание правил не освобождает Вас от ответственности.
+        - §83 Администрация сервера имеет право изменять правила без уведомления игроков.
+        - §84 В некоторых случаях администрация вправе наложить санкции на игрока
+        - §8по причине, не указанной в правилах.
+        - §85. О серьёзных багах стоит докладывать администрации, напишите
+        - §8vk.com/nezushin и получите награду!
+        amount: 1
+        slot: '10'
+      '2':
+        item: BOOK
+        name: '&6Правила чата'
+        lore:
+        - §81 Запрещена реклама сторонних ресурсов, не относящихся
+        - §8 к серверу или контексту в чате.
+        - §82 Запрещен спам, повтор одних и тех же сообщений.
+        - §83 Запрещено писать сообщения заглавными буквами.
+        - §8Исключения составляют те случаи, когда по контексту в
+        - §8этом есть смысл либо при использовании аббревиатур
+        - §8 и других названий.
+        - §84 Запрещен флуд, сообщения, не имеющие смысла.
+        - §85 Запрещена реклама варпов более чем раз в две минуты.
+        - §86 Запрещено выдавать себя за администратора.
+        amount: 1
+        slot: '11'
+      '3':
+        item: BOOK
+        name: '&6Аккаунт'
+        lore:
+        - §81 Идентификатором аккаунта является ник. Изменить его нельзя.
+        - '§82 Ник может состоять из: символов латинского алфавита, цифр и символа
+          _.'
+        - §83 Допустимая длина ника - от 3 до 16 символов.
+        - §84 Использование неприемлемого ника может стать причиной блокировки аккаунта.
+        - §85 Пароль от аккаунта должен быть известен только Вам. Администрация не
+          несет
+        - §8 ответственности за несанкционированный доступ к аккаунту
+        - §86 После авторизации/регистрации на сервере и до закрытия сессии вы несете
+        - '§8ответственность за свой IP адрес и все подключения с него. '
+        - §87 Запрещена передача/продажа своего аккаунта другому пользователю.
+        amount: 1
+        slot: '12'
+      '4':
+        item: BOOK
+        name: '&6Игра на сервере'
+        lore:
+        - §81 Администрация сервера не несет ответственности за проблемы во время
+        - §8 игры на сервере, вызванные
+        - §8скоростью соединения игрока, его лаунчером, производительностью
+        - '§8 компьютера и другими факторами, '
+        - §8которые не относятся к серверу.
+        - §82 Администрация сервера не несет ответственности в случае
+        - §8 возникновения неполадок в работе хостинга/дата-центра.
+        - §83 Администрация имеет право на изменение данных игрока, изъятие у
+        - §8 него вещей, денег и других игровых достижений.
+        - §84 Запрещено использование модов, читов и другого стороннего ПО.
+        - §8 Сюда входят и некоторые пакеты текстур.
+        - §85 Запрещено мошенничество, намеренный обман игроков и администрации.
+        - §86 Запрещены любые попытки навредить серверу, вызывать неполадки в его
+          работе.
+        - §87 При обнаружении любых багов и недоработок сервера игрок
+        - §8 обязан сообщить о них администрации.
+        - §88 Запрещено любое использование багов и недоработок с целью получения
+          выгоды.
+        - §89 Играя на сервере, вы отдаёте на неопределённый срок свою
+        - §8бессмертную душу, одобрение на её возврещение выносится администрацией.
+        amount: 1
+        slot: '13'
+      '5':
+        item: BOOK
+        name: '&6Правила игрового мира'
+        lore:
+        - §81 Запрещены постройки, создающие лаги и замедляющие работу
+        - §8 сервера, недостойного содержания постройки разрешается.
+        - §82 Любые постройки за зоной привата доступны всем игрокам.
+        - §8 Администрация не несет ответственности за потерю имущества.
+        - §83 Территория, которая была запривачена игроком, становится его
+        - §8собственностью. Исключение составляет тот случай,
+        - §8когда это произошло в результате бага или неправомерного
+        - §8 использования системы привата.
+        - §84 Запрещено ставить точки дома, варпы, точки кланов на
+        - §8 территории, принадлежащей другому игроку.
+        - §85 Запрещено устанавливать варпы в опасных для игроков местах.
+        - §8(Пропасть больше 3-х блоков, PvP-зона, ловушка, место
+        - §8 спавна агрессивных мобов)
+        - §86 Запрещён умышленный вред постройкам игроков, находящихся в зоне привата.
+        - §8(сюда включается и притягивание на зону привата эндер кристаллов)
+        - §87 Запрещён умышленный вред игрокам в зоне привата, если флаг PvP выключен.
+        amount: 1
+        slot: '14'
+      '6':
+        item: BOOK
+        name: '&6Донат'
+        lore:
+        - §81. Донат - это, прежде всего, пожертвование на развитие
+        - §8 сервера. В награду вы получаете определённые привилегии.
+        - §82. Покупка доната осуществляется только через
+        - §8 сайт mywitchcraft.mcdonate.ru
+        - §83. Администрация имеет право на лишение игрока
+        - §8 купленных привилегий либо на отказ в их выдаче в случае нарушения правил.
+        - '§84. Перенос доната на другой ник не осуществляется. '
+        - §86. Деньги, потраченные на услуги сервера, не
+        - §8 возвращаются ни при каких обстоятельствах.
+        amount: 1
+        slot: '15'
+      '7':
+        item: BOOK
+        name: '&6Полномочия'
+        lore:
+        - §81. Донатер не имеет право использовать свои возможности
+        - §8 с целью навредить другим игрокам.
+        - §82. Запрещено кикать игрока, выдавать мут или бан без явных на то причин.
+        - §83. Донатер не имеет право использовать свои возможности с
+        - §8 целью навредить серверу, вызвать неполадки в его работе.
+        - '§84. Запрещена продажа своего аккаунта. '
+        - §85. Администрация вправе лишить игрока купленных
+        - §8 привилегий при выявлении нарушений правил.
+        amount: 1
+        slot: '16'
+      '0':
+        item: GRAY_STAINED_GLASS_PANE
+        name: '&8'
+        amount: 1
+        slot: 0,1,2,3,4,5,6,7,8,9,17,18,19,20,21,22,23,24,25,26
+        nbt: '{display:{Name:''{"text":"§8"}''}}'
+    title: Правила
+    rows: 3
+    script: rules.js
+  shop:
+    nodes:
+      '15':
+        item: REDSTONE
+        name: '&9Редстоун'
+        amount: 1
+        slot: '15'
+        nbt: '{display:{Name:''{"text":"§9Редстоун"}''}}'
+      '10':
+        item: STONE
+        name: '&9Блоки'
+        amount: 1
+        slot: '10'
+        nbt: '{display:{Name:''{"text":"§9Блоки"}''}}'
+      '14':
+        item: STICK
+        name: '&9Материалы'
+        amount: 1
+        slot: '14'
+        nbt: '{display:{Name:''{"text":"§9Материалы"}''}}'
+      '22':
+        item: BOOK
+        name: '&9Разное'
+        amount: 1
+        slot: '22'
+        nbt: '{display:{Name:''{"text":"§9Разное"}''}}'
+      '11':
+        item: END_PORTAL_FRAME
+        name: '&9Первая страница декораций'
+        amount: 1
+        slot: '11'
+        nbt: '{display:{Name:''{"text":"§9Первая страница декораций"}''}}'
+      '12':
+        item: END_PORTAL_FRAME
+        name: '&9Вторая страница декораций'
+        amount: 1
+        slot: '12'
+        nbt: '{display:{Name:''{"text":"§9Вторая страница декораций"}''}}'
+      '13':
+        item: COOKED_BEEF
+        name: '&9Еда'
+        amount: 1
+        slot: '13'
+        nbt: '{display:{Name:''{"text":"§9Еда"}''}}'
+      '16':
+        item: OAK_BOAT
+        name: '&9Транспорт'
+        amount: 1
+        slot: '16'
+        nbt: '{display:{Name:''{"text":"§9Транспорт"}''}}'
+      '0':
+        item: GRAY_STAINED_GLASS_PANE
+        name: '&8'
+        amount: 1
+        slot: 0,1,2,3,4,5,6,7,8,9,17,18,19,20,21,23,24,25,26
+        nbt: '{display:{Name:''{"text":"§8"}''}}'
+    script: shop.js
+    title: Магазин
+    rows: 3
+  menu:
+    nodes:
+      '2':
+        item: DIAMOND
+        name: '&r&cДонат'
+        amount: 1
+        slot: '2'
+        nbt: '{display:{Name:''{"text":"§r§cДонат"}''}}'
+      '0':
+        item: CRAFTING_TABLE
+        name: '&rКрафты'
+        amount: 1
+        slot: '0'
+        nbt: '{display:{Name:''{"text":"§rКрафты"}''}}'
+      '1':
+        item: GRAY_STAINED_GLASS_PANE
+        amount: 1
+        slot: 1,3,5,7
+        nbt: '{}'
+      '4':
+        item: WRITABLE_BOOK
+        name: '&rПравила'
+        amount: 1
+        slot: '4'
+        nbt: '{display:{Name:''{"text":"§rПравила"}''}}'
+      '6':
+        item: CHEST
+        name: '&r&bМагазин'
+        amount: 1
+        slot: '6'
+        nbt: '{display:{Name:''{"text":"§r§bМагазин"}''}}'
+      '8':
+        item: EMERALD
+        name: '&r&3Киты'
+        amount: 1
+        slot: '8'
+        nbt: '{display:{Name:''{"text":"§r§3Киты"}''}}'
+    title: menu
+    rows: 1
+    script: main_menu_sript.js
+  disc_editor:
+    nodes:
+      '2':
+        item: SPECTRAL_ARROW
+        name: '&rНазад'
+        amount: 1
+        slot: '2'
+        nbt: '{display:{Name:''{"text":"§rНазад"}''},CustomModelData:2}'
+      '0':
+        item: IRON_BARS
+        name: '&r'
+        amount: 1
+        slot: 0,1,3,5,7,8
+        nbt: '{display:{Name:''{"text":"§r"}''},CustomModelData:1}'
+      '6':
+        item: SPECTRAL_ARROW
+        name: '&rВперёд'
+        amount: 1
+        slot: '6'
+        nbt: '{display:{Name:''{"text":"§rВперёд"}''},CustomModelData:1}'
+    title: Редактор пластинок
+    dontCancel: 4
+    rows: 1
+    script: disc_editor.js
+  Shaurma:
+    nodes:
+      '10':
+        item: IRON_BARS
+        name: '&rМясо'
+        amount: 1
+        slot: '10'
+        nbt: '{display:{Name:''{"text":"§rМясо"}''},CustomModelData:8}'
+      '13':
+        item: IRON_BARS
+        name: '&rОгурец'
+        amount: 1
+        slot: '13'
+        nbt: '{CustomModelData:4,display:{Name:''{"text":"§rОгурец"}''}}'
+      '15':
+        item: IRON_BARS
+        name: '&rСоус'
+        amount: 1
+        slot: '15'
+        nbt: '{CustomModelData:6,display:{Name:''{"text":"§rСоус"}''}}'
+      '0':
+        item: IRON_BARS
+        name: '&r'
+        amount: 1
+        slot: 0,8,9,17,18,19,20,21,23,24,25,26,27,28,29,30,32,33,34,35,36,37,38,39,40,41,42,43,44
+        nbt: '{CustomModelData:1,display:{Name:''{"text":"§r"}''}}'
+      '22':
+        item: COMPARATOR
+        name: '&rСоздать'
+        lore:
+        - '§r§7Шанс отравления: 10%'
+        - '§r§7Насыщение: 8'
+        - '§r§7Калорийность: 5'
+        amount: 1
+        slot: '22'
+        nbt: '{CustomModelData:2,display:{Name:''{"text":"§rСоздать"}''}}'
+      '16':
+        item: IRON_BARS
+        name: '&rТомат'
+        amount: 1
+        slot: '16'
+        nbt: '{CustomModelData:7,display:{Name:''{"text":"§rТомат"}''}}'
+      '12':
+        item: IRON_BARS
+        name: '&rЛук'
+        amount: 1
+        slot: '12'
+        nbt: '{CustomModelData:3,display:{Name:''{"text":"§rЛук"}''}}'
+      '11':
+        item: IRON_BARS
+        name: '&rСыр'
+        amount: 1
+        slot: '11'
+        nbt: '{CustomModelData:2,display:{Name:''{"text":"§rСыр"}''}}'
+      '14':
+        item: IRON_BARS
+        name: '&rЛаваш'
+        amount: 1
+        slot: '14'
+        nbt: '{CustomModelData:5,display:{Name:''{"text":"§rЛаваш"}''}}'
+    title: §r§oСделано в Таджикистане
+    rows: 5
+    dontCancel: 1-7,31
+    requiredArgs: 4
+    script: shaurma.js
+  CornPreserver:
+    nodes:
+      '4':
+        item: COMPARATOR
+        name: Консервировать
+        amount: 1
+        slot: '4'
+        nbt: '{display:{Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Консервировать"}],"text":""}''},CustomModelData:3}'
+      '0':
+        item: WRITABLE_BOOK
+        name: Инфо
+        amount: 1
+        slot: '0'
+        nbt: '{display:{Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Инфо"}],"text":""}''},CustomModelData:2}'
+      '1':
+        item: IRON_BARS
+        name: ''
+        amount: 1
+        slot: 1,5,7
+        nbt: '{CustomModelData:1,display:{Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}''}}'
+      '8':
+        item: BARRIER
+        name: '&4Выход'
+        amount: 1
+        slot: '8'
+        nbt: '{display:{Name:''{"extra":[{"italic":false,"color":"dark_red","text":"Выход"}],"text":""}''},CustomModelData:2}'
+    title: CornPreserver
+    rows: 1
+  help:
+    nodes:
+      '6':
+        item: DIAMOND_HELMET
+        name: '&fГриферство'
+        lore:
+        - §c§l§nЗапрещено
+        - §f
+        - '§7Под гриферством подразумевается:'
+        - §71. Убийство игроков в зоне их привата,
+        - §7если выключен флаг pvp.
+        - §72. Вред территории, которая находится в привате.
+        - §7 (Лавакасты, динамит, поршни)
+        - §73. Ловушки.
+        - §7 (Телепортация в ямы и последующее убийство
+        - §7 тоже считаются за гриферство)
+        amount: 1
+        slot: '6'
+        nbt: '{CNBT_TYPE:"ITEM",display:{Name:''{"extra":[{"italic":false,"color":"white","text":"Гриферство"}],"text":""}'',Lore:[''{"extra":[{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"red","text":"Запрещено"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Под
+          гриферством подразумевается:"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"1.
+          Убийство игроков в зоне их привата,"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"если
+          выключен флаг pvp."}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"2.
+          Вред территории, которая находится в привате."}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          (Лавакасты, динамит, поршни)"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"3.
+          Ловушки."}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          (Телепортация в ямы и последующее убийство"}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"
+          тоже считаются за гриферство)"}],"text":""}'']},CustomModelData:5,Damage:0,CNBT:"AnonymousMask"}'
+      '7':
+        item: WOODEN_SWORD
+        name: Энд
+        lore:
+        - §7Эндер дракон имеет несколько
+        - '§7новых скиллов:'
+        - §7 §7Эндер молния
+        - §7 §7Самонаводящиеся снаряды шалкера
+        - §7 §7Летающие кристаллы
+        - ''
+        - §7Чтобы выбить яйцо дракона,
+        - §7убейте его боевыми ножницами.
+        - ''
+        - §7Используйте Эндер посох, чтобы
+        - §7телепортироваться в энд
+        amount: 1
+        slot: '7'
+        nbt: '{display:{Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Энд"}],"text":""}'',Lore:[''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Эндер
+          дракон имеет несколько"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"новых
+          скиллов:"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Эндер молния"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Самонаводящиеся снаряды шалкера"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Летающие кристаллы"}],"text":""}'',''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Чтобы
+          выбить яйцо дракона,"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"убейте
+          его боевыми ножницами."}],"text":""}'',''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Используйте
+          Эндер посох, чтобы"}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"телепортироваться
+          в энд"}],"text":""}'']},CustomModelData:6,Damage:0,HideFlags:2}'
+      '3':
+        item: GOLD_NUGGET
+        name: '&fКак зарабатывать деньги'
+        lore:
+        - §7Вы можете продавать вещи в §b/shop§7, либо
+        - §7получить их переводом от игрока
+        - §7
+        - §7Команда для перевода денег - §b/pay <НИК> <СУММА>
+        amount: 1
+        slot: '3'
+        nbt: '{display:{Name:''{"extra":[{"italic":false,"color":"white","text":"Как
+          зарабатывать деньги"}],"text":""}'',Lore:[''{"extra":[{"italic":false,"color":"gray","text":"Вы
+          можете продавать вещи в "},{"italic":false,"color":"aqua","text":"/shop"},{"italic":false,"color":"gray","text":",
+          либо"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"получить
+          их переводом от игрока"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Команда
+          для перевода денег - "},{"italic":false,"color":"aqua","text":"/pay <НИК>
+          <СУММА>"}],"text":""}'']},CustomModelData:1}'
+      '4':
+        item: ENDER_PEARL
+        name: Телепортация
+        lore:
+        - §7Для того, чтобы попасть на спавн,
+        - §7используйте команду §b/spwan
+        - §7Телепортация в мир - §b/rtp
+        - §7Телепортация к другу - §b/tpa <НИК>
+        - §7Телепортировать друга к себе - §b/tpahere <НИК>
+        amount: 1
+        slot: '4'
+        nbt: '{display:{Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Телепортация"}],"text":""}'',Lore:[''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Для
+          того, чтобы попасть на спавн,"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"используйте
+          команду "},{"italic":false,"color":"aqua","text":"/spwan"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Телепортация
+          в мир - "},{"italic":false,"color":"aqua","text":"/rtp"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Телепортация
+          к другу - "},{"italic":false,"color":"aqua","text":"/tpa <НИК>"}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Телепортировать
+          друга к себе - "},{"italic":false,"color":"aqua","text":"/tpahere <НИК>"}],"text":""}'']}}'
+      '1':
+        item: DIAMOND_SWORD
+        name: '&fРесурспак'
+        lore:
+        - §7Загружается через команду §b/rp§7
+        - §7Если текстурпак не установился, то у вас,
+        - §7вероятно, отключен текстурпак в настройках майнкрафт.
+        - §7Включите его в списке серверов.
+        - §7
+        - '§7Ссылка на текстурпак: §b§ohttps://mywitchcraft.ru/server_texture.zip§b§o'
+        amount: 1
+        slot: '1'
+        nbt: '{Damage:0,display:{Name:''{"extra":[{"italic":false,"color":"white","text":"Ресурспак"}],"text":""}'',Lore:[''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Загружается
+          через команду "},{"italic":false,"color":"aqua","text":"/rp"},{"italic":false,"color":"gray","text":""}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Если
+          текстурпак не установился, то у вас,"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"вероятно,
+          отключен текстурпак в настройках майнкрафт."}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Включите
+          его в списке серверов."}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Ссылка
+          на текстурпак: "},{"italic":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://mywitchcraft.ru/server_texture.zip"},"text":"https://mywitchcraft.ru/server_texture.zip"},{"italic":true,"color":"aqua","text":""}],"text":""}'']},CustomModelData:1}'
+      '5':
+        item: GRASS_BLOCK
+        name: Приват
+        lore:
+        - §7На сервере действует стандартный приват
+        - §7через WorldGuard
+        - §7
+        - §7Чтобы заприватить территорию,
+        - §7выделите её деревянным топором
+        - §7и пропишите §b/rg claim <НАЗВАНИЕ>§7
+        - §7Чтобы добавить друга - §b/rg addMember <НАЗВАНИЕ> <ИМЯ>
+        - §7Чтобы удалить друга - §b/rg removeMember <НАЗВАНИЕ> <ИМЯ>
+        - §7Удаление региона - §b/rg remove <НАЗВАНИЕ>
+        amount: 1
+        slot: '5'
+        nbt: '{display:{Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Приват"}],"text":""}'',Lore:[''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"На
+          сервере действует стандартный приват"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"через
+          WorldGuard"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Чтобы
+          заприватить территорию,"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"выделите
+          её деревянным топором"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"и
+          пропишите "},{"italic":false,"color":"aqua","text":"/rg claim <НАЗВАНИЕ>"},{"italic":false,"color":"gray","text":""}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Чтобы
+          добавить друга - "},{"italic":false,"color":"aqua","text":"/rg addMember
+          <НАЗВАНИЕ> <ИМЯ>"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Чтобы
+          удалить друга - "},{"italic":false,"color":"aqua","text":"/rg removeMember
+          <НАЗВАНИЕ> <ИМЯ>"}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Удаление
+          региона - "},{"italic":false,"color":"aqua","text":"/rg remove <НАЗВАНИЕ>"}],"text":""}'']}}'
+      '2':
+        item: LEATHER_HELMET
+        name: Как получить стартовые вещи?
+        lore:
+        - §7Используйте команду §b/kits
+        amount: 1
+        slot: '2'
+        nbt: '{Damage:0,HideFlags:2,display:{Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Как
+          получить стартовые вещи?"}],"text":""}'',Lore:[''{"extra":[{"italic":false,"color":"gray","text":"Используйте
+          команду "},{"italic":false,"color":"aqua","text":"/kits"}],"text":""}'']}}'
+      '0':
+        item: IRON_BARS
+        name: ''
+        amount: 1
+        slot: '0'
+        nbt: '{display:{Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}''},CustomModelData:1}'
+      '8':
+        item: BARRIER
+        name: '&cВыйти'
+        amount: 1
+        slot: '8'
+        nbt: '{CustomModelData:2,display:{Name:''{"extra":[{"italic":false,"color":"red","text":"Выйти"}],"text":""}''}}'
+    title: Помощь 
+    rows: 1    
