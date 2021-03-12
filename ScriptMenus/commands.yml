@@ -5,9 +5,6 @@ commands:
   '2':
     cmd: menu
     executor: menu_open.js
-  '3':
-    cmd: rtp
-    executor: rrtp.js
   '6':
     cmd: shop
     executor: shop_cmd.js
