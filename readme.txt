@@ -7,6 +7,8 @@ AuthTexturePack - загрузка ресурспака по команде /rp.
 CustomEnderDragon - новый эндер дракон.
 AnvilAPI - api, используемый во всё вышеперечисленном.
 Vault - api, необходимый для загрузки ScriptMenus. spigotmc page: https://www.spigotmc.org/resources/vault.34315/
+WorldEdit -  api, необходимый для загрузки некоторых айтемов и дракона. bukkit page: https://dev.bukkit.org/projects/worldedit
+WorldGuard - Приваты. Необходим для загрузки некоторых айтемов. bukkit page: https://dev.bukkit.org/projects/worldguard
 
 Советую юзать ядро https://yatopiamc.org/ для сервера.
 
