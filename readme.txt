@@ -6,6 +6,7 @@ ItemXuyna (Items.jar) - хуета, позволяющая загружать а
 AuthTexturePack - загрузка ресурспака по команде /rp.
 CustomEnderDragon - новый эндер дракон.
 AnvilAPI - api, используемый во всё вышеперечисленном.
+Vault - api, необходимый для загрузки ScriptMenus. spigotmc page: https://www.spigotmc.org/resources/vault.34315/
 
 Советую юзать ядро https://yatopiamc.org/ для сервера.
 
