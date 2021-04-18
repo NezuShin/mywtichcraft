@@ -10,6 +10,7 @@ Vault - api, необходимый для загрузки ScriptMenus. spigotm
 WorldEdit -  api, необходимый для загрузки некоторых айтемов и дракона. bukkit page: https://dev.bukkit.org/projects/worldedit
 WorldGuard - Приваты. Необходим для загрузки некоторых айтемов. bukkit page: https://dev.bukkit.org/projects/worldguard
 EssentialsX - Все основные команды (такие как home and spawn). Нужен для работы измерителя тпс. spigotmc page: https://www.spigotmc.org/resources/essentialsx.9089/
+Citizens - позволяет добавлять npc на сервер, а также необходим для работы гравипушки (Там просто проверка на то, является ли моб npc, а мне убирать лень). spigotmc page: https://www.spigotmc.org/resources/citizens.13811/
 
 Советую юзать ядро https://yatopiamc.org/ для сервера.
 
